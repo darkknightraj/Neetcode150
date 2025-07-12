@@ -6,13 +6,13 @@ import java.util.Scanner;
 public class twoSum {
     public static  void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of array ");
-        int size= sc.nextInt();
+//        System.out.println("Enter the size of array ");
+//        int size= sc.nextInt();
         //declare the array
-        int[] nums = new int[size];
+        int[] nums = new int[5];
         //enter the elements of the array
         System.out.println("Enter the element of the array ");
-        for(int i = 0;i<size;i++){
+        for(int i = 0;i<5;i++){
             nums[i] = sc.nextInt();
         }
         System.out.println("Enter the target value ");
